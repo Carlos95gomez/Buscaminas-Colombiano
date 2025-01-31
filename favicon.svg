@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Círculo base -->
+  <circle cx="16" cy="16" r="14" fill="#003893"/>
+  <!-- Picos de la mina -->
+  <path d="M16 2 L19 8 L16 6 L13 8 Z" fill="#FCD116"/>
+  <path d="M30 16 L24 19 L26 16 L24 13 Z" fill="#FCD116"/>
+  <path d="M16 30 L13 24 L16 26 L19 24 Z" fill="#CE1126"/>
+  <path d="M2 16 L8 13 L6 16 L8 19 Z" fill="#CE1126"/>
+  <!-- Círculo central -->
+  <circle cx="16" cy="16" r="6" fill="#FCD116"/>
+  <circle cx="16" cy="16" r="4" fill="#003893"/>
+</svg>

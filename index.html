@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas Colombiano</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <header class="header">
+        <h1>Buscaminas Colombiano</h1>
+    </header>
+    <div class="contenedor-juego">
+        <h1>Buscaminas</h1>
+        <div class="controles">
+            <select id="nivel">
+                <option value="principiante">Principiante (8x8)</option>
+                <option value="intermedio">Intermedio (10x10)</option>
+                <option value="experto">Experto (12x12)</option>
+            </select>
+            <button onclick="iniciarJuego()">Nuevo Juego</button>
+        </div>
+        <div id="tablero" class="tablero"></div>
+        <div class="stats">
+            <p>Puntuación: <span id="puntuacion">0</span></p>
+            <p>Mejor puntuación: <span id="mejorPuntuacion">0</span></p>
+            <p>Minas restantes: <span id="minasRestantes">0</span></p>
+        </div>
+    
+        <div id="modal" class="modal">
+            <div class="modal-contenido">
+                <h2 id="modal-titulo"></h2>
+                <p id="modal-mensaje"></p>
+                <div class="modal-botones">
+                    <button onclick="reiniciarJuego()">Jugar de nuevo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Carlos95gomez" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/carlos-arevalo-488438258" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61572410000879" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="funciones.js"></script>
+</body>
+</html>
