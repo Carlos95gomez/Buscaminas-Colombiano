@@ -164,17 +164,6 @@ button:hover {
     margin: 0 auto;
     background-color: blanchedalmond;
 }
-.hits-counter {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-.hits-counter img {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Footer */
 .footer {
     width: 100%;
@@ -192,7 +181,17 @@ button:hover {
     gap: 2rem;
     padding: 0 1rem;
 }
+.hits-counter {
+    float: left;
+    padding: 10px;
+    display: inline-block;
+}
 
+.hits-counter img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 .social-links a {
     color: white;
     font-size: 1.5rem;
